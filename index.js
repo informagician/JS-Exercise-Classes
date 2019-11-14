@@ -91,6 +91,7 @@ class Car {
     } else if (distance >= dd) {
       this.odometer += dd;
       this.tank = 0;
+      return `I ran out of fuel at ${this.odometer} miles!`;
     }
   }
 }
